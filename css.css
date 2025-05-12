@@ -1,0 +1,20 @@
+.content-panel {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    background-color: #f0f0f0;
+    padding: 0 10px; /* padding here is OK */
+  }
+  .hidden-text {
+    padding: 10px 0;
+  }
+  .toggle-btn {
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 10px;
+  }
+  .icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-left: 5px;
+  }
